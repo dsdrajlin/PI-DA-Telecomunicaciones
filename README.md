@@ -23,6 +23,7 @@ Consideremos la siguiente métrica:
 \[ VAI = \left( \frac{{\text{{Nuevo acceso}} - \text{{Acceso actual}}}}{{\text{{Acceso actual}}}} \right) \times 100 \]
 
 
+`KPI = ((Nuevo acceso - Acceso actual) / Acceso actual) * 100`
 
 ## Stack tecnológico
 
