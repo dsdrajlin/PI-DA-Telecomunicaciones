@@ -1,4 +1,4 @@
-# Análisis del Mercado de Telecomunicaciones para "Super".
+# Análisis del Mercado de Telecomunicaciones para Super
 
 ## Introducción
 Como Analista de Datos, he sido contratado por Super (anteriormente conocida como [Supercanal](https://es.wikipedia.org/wiki/Super_(empresa))), una destacada empresa de telecomunicaciones en Argentina. La empresa fue fundada en 1985 en la provincia de Mendoza, con el objetivo de brindar acceso a TV por cable. Desde entonces, Super ha experimentado un crecimiento significativo, expandiéndose a más de 100 ciudades y 14 provincias del país.
@@ -16,11 +16,21 @@ Este proyecto tiene como objetivo principal analizar los datos actuales de Super
 * Desarrollar Key Performance Indicators (KPIs) para monitorear el cumplimiento de los objetivos de la empresa en este dinámico mercado de telecomunicaciones.
 
 
-
 ## Análisis general
-Contexto de internet en el pais y hallazgos
+En este sección, describiremos un panorama general de la situación de acceso a Internet en Argentina.
+Para cumplir con los análisis propuestos, se trabajó en principio con los datasets disponibilizados por el Ente Nacional de Comunicaciones ([ENACOM](https://www.enacom.gob.ar/)).
+
+Otras fuentes destacadas de información fueron:
+* [Portal de Datos del Gobierno Argentino](https://datos.gob.ar/)
+* Instituto Nacional de Estadísticas y Censos de la República Argentina ([INDEC](https://www.indec.gob.ar/))
+* [Speedtest Global Index](https://www.speedtest.net/global-index)
+* Cámara Argentina de Internet ([Cabase](https://www.cabase.org.ar/en/home/))
+
+Según ENACOM, la penetración de Internet ha crecido sostenidamente. Cuando se mide el número de accesos cada 100 hogares, este era de 49,55 en el primer trimestre de 2014 y aumentó a 77,21 en el cuarto trimestre de 2022. Según el [Informe de Cabase](https://app.powerbi.com/view?r=eyJrIjoiYzNmNjIzZGYtMGFjZS00MzExLTk4YTgtZDJjZjg4MGFmNGJlIiwidCI6ImUxMzMxMmI2LTRkOTMtNDMyOC05NjkxLTA1ZTc3ODNiMGVhMSIsImMiOjR9) a Agosto de 2023, el 85,5% de los hogares cuentan con acceso a Internet fijo.
+
 
 ## Análisis particular
+En este sección destacaremos los hallazgos de mayor relevancia para la empresa.
 Exploración en particular y conclusiones
 
 ## KPIs
