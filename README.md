@@ -20,7 +20,8 @@ En este proyecto trabajaremos con 2 KPIs.
 ### Variación en el acceso a Internet
 Consideremos la siguiente métrica:
 
-\[ VAI = \left( \frac{{\text{{Nuevo acceso}} - \text{{Acceso actual}}}}{{\text{{Acceso actual}}}} \right) \times 100 \]
+KPI = <sup>((Nuevo acceso - Acceso actual)</sup> / <sub>Acceso actual)</sub> * 100
+
 
 
 `KPI = ((Nuevo acceso - Acceso actual) / Acceso actual) * 100`
