@@ -71,4 +71,5 @@ El proyecto se desarrolló en Python, haciendo uso de las siguientes bibliotecas
 ## Archivos
 * __[EDA_preliminar.ipynb:](EDA_preliminar.ipynb)__ Análisis exploratorio inicial de la situación de acceso a Internet en Argentina.
 * __[EDA_Super.ipynb:](EDA_Super)__ Análisis exploratorio con enfásis en las preguntas de negocio y objetivos especificos de Super.
-* __[Funciones.py:]()
+* __[funciones.py:](funciones.py)__ Funciones de uso común.
+* __[Datasets:](Datasets/)__ Carpeta con los archivos usados para el análisis.
