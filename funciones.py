@@ -13,7 +13,31 @@ def eda_inicial(df):
     # Describir las columnas
     print(df.describe(include="all"), "\n")
 
-def plot_outliers_by_province(df, exclude: list, size=(16, 8), cols_per_row=2, rotation=45):
+
+def get_outliers_df(df, exclude = [], size = (16,8), ylim= None):
+
+    # Configurar el tamaño de la figura
+    plt.figure(figsize=size)
+
+    # Crear el boxplot con todas las columnas numéricas
+    sns.boxplot(data=df.drop(exclude, axis=1))
+
+    # Personalizar el título y las etiquetas de los ejes
+    plt.title("Boxplot de Todas las Columnas Numéricas")
+    plt.xlabel("Columnas")
+    plt.ylabel("Valores")
+
+    # Rotar las etiquetas del eje x para mejorar la legibilidad
+    plt.xticks(rotation=45, ha="right")
+
+    # Ajusta los límites del eje y
+    plt.ylim(ylim)
+
+    # Mostrar el gráfico
+    plt.show()
+
+    
+def get_outliers_df_provincia(df, exclude: list, size=(16, 8), cols_per_row=2, rotation=45):
     # Obtener la lista única de provincias
     provinces = df['Provincia'].unique()
 
