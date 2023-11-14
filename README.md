@@ -61,6 +61,14 @@ Donde:
 Nuestro KPI consiste en "alcanzar una tasa de conversión del 2% para final del trimestre, por provincia". Haremos el seguimiento de nuestro KPI con la métrica TC.
 
 ## Stack tecnológico
+El proyecto se desarrolló en Python, haciendo uso de las siguientes bibliotecas y herramientas:
+
+- **Manipulación y Análisis de Datos:** `pandas` | `numpy`
+- **Visualización de Datos:** `matplotlib` | `seaborn` | `plotly` | `geopandas`
+- **Operaciones en Archivos y Directorios:** `requests` | `shutil`
+- **Operaciones Científicas y Análisis de Datos:** `math` | `scipy` | `scikit-learn`
 
 ## Archivos
-* 
+* __[EDA_preliminar.ipynb:](EDA_preliminar.ipynb)__ Análisis exploratorio inicial de la situación de acceso a Internet en Argentina.
+* __[EDA_Super.ipynb:](EDA_Super)__ Análisis exploratorio con enfásis en las preguntas de negocio y objetivos especificos de Super.
+* __[Funciones.py:]()
