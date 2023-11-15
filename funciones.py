@@ -82,39 +82,67 @@ def get_outliers_df(df, exclude = [], size = (16,8), ylim= None):
     plt.show()
 
     
-def get_outliers_df_provincia(df, exclude: list, size=(16, 8), cols_per_row=2, rotation=45):
+def get_outliers_df_provincia(df, exclude: list, size=(16, 8), cols_por_fila=2, rotacion=45):
+    """
+    Crea un conjunto de boxplots para visualizar los valores atípicos en las 
+    columnas numéricas de un DataFrame, separados por provincia.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        El DataFrame que se utilizará para crear los boxplots.
+    exclude : list
+        Lista de columnas a excluir del boxplot.
+    size : tuple, optional
+        Tamaño de la figura. Por defecto, es (16, 8).
+    cols_por_fila : int, optional
+        Número de columnas por fila en la grilla de boxplots. Por defecto, es 2.
+    rotacion : int, optional
+        Grados de rotación de las etiquetas del eje x. Por defecto, es 45.
+
+    Returns
+    -------
+    None
+
+    Prints
+    ------
+    None
+        Muestra una grilla de boxplots, cada uno correspondiente a una provincia, 
+        para visualizar valores atípicos.
+    """
     # Obtener la lista única de provincias.
-    provinces = df['Provincia'].unique()
+    provincias = df['Provincia'].unique()
 
     # Calcular el número total de filas necesario para la grilla.
-    total_rows = math.ceil(len(provinces) / cols_per_row)
+    total_filas = math.ceil(len(provincias) / cols_por_fila)
 
     # Configurar el tamaño de la figura de la grilla
-    fig, axes = plt.subplots(total_rows, cols_per_row, figsize=(size[0], size[1] * total_rows))
+    fig, axes = plt.subplots(total_filas, cols_por_fila, 
+                             figsize=(size[0], size[1] * total_filas))
 
-    # Asegurarse de que 'axes' sea una matriz bidimensional.
-    if total_rows == 1:
+    # Asegurarse de que "axes" sea una matriz bidimensional.
+    if total_filas == 1:
         axes = axes.reshape(1, -1)
     else:
-        axes = axes.reshape(total_rows, cols_per_row)
+        axes = axes.reshape(total_filas, cols_por_fila)
 
-    # Iterar sobre las provincias y crear los boxplots
-    for i, province in enumerate(provinces):
+    # Iterar sobre las provincias y crear los boxplots.
+    for i, provincia in enumerate(provincias):
         # Obtener el subconjunto de datos para la provincia actual
-        subset_df = df[df['Provincia'] == province]
+        subset_df = df[df['Provincia'] == provincia]
 
         # Seleccionar el eje correcto en la grilla
-        row = i // cols_per_row
-        col = i % cols_per_row
+        row = i // cols_por_fila
+        col = i % cols_por_fila
 
         # Llamar a la función sns.boxplot con el subconjunto de datos
         sns.boxplot(data=subset_df.drop(exclude, axis=1), ax=axes[row, col])
 
         # Establecer el título de la provincia
-        axes[row, col].set_title(f"Provincia: {province}")
+        axes[row, col].set_title(f"Provincia: {provincia}")
 
         # Rotar las etiquetas del eje x para mejorar la legibilidad
-        axes[row, col].tick_params(axis='x', rotation=rotation)
+        axes[row, col].tick_params(axis='x', rotation=rotacion)
 
     # Ajustar el diseño de la grilla y mostrar la figura
     plt.tight_layout()
