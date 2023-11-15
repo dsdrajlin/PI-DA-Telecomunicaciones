@@ -1,4 +1,7 @@
-# Análisis del Mercado de Telecomunicaciones para Super
+<img src="./assets/logo_super.png">
+
+<h1 align="center"><b> Análisis del Mercado de Telecomunicaciones para Super </b></h1>
+<hr>
 
 ## Introducción
 Como Analista de Datos, he sido contratado por Super (anteriormente conocida como [Supercanal](https://es.wikipedia.org/wiki/Super_(empresa))), una destacada empresa de telecomunicaciones en Argentina. La empresa fue fundada en 1985 en la provincia de Mendoza, con el objetivo de brindar acceso a TV por cable. Desde entonces, Super ha experimentado un crecimiento significativo, expandiéndose a más de 100 ciudades y 14 provincias del país.
