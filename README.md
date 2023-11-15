@@ -44,6 +44,8 @@ Según ENACOM, la penetración de Internet ha crecido sostenidamente. Cuando se 
 
 Del análisis de los rangos de velocidades de bajada, se observa que en 2014 la mayoría de los accesos eran inferiores a 10 Mbps, mientras que solo una minoría superaba los 30 Mbps. A finales de 2022, con la mayor disponibilidad de tecnologías más rápidas y asequibles, se ha observado una tendencia al aumento de las conexiones con velocidades más altas. Según el mencionado informe de Cabase, el 47.34% de los hogares tiene una velocidad de conexión superior a 50 Mbps. Considerando lo expuesto, resulta fundamental para aquellas empresas que quieran expandir su mercado ofrecer velocidades más altas.
 
+Según la última información disponibilzada por ENACOM, la velocidad media de bajada estaba en alrededor de 70 Mbps para el último trimestre de 2022. [Speedtest](https://www.speedtest.net/global-index/argentina?fixed#market-analysis) señala que el proveedor de Internet fijo con mayor velocidad en Argentina es "Movistar" con una mediana de velocidad de 92.83 Mbps para el Q4-2022 y una mediana de 102.55 Mbps para el Q3-2023. Surge del análisis y también de esta fuente, grandes diferencias entre distintas provincias. 
+
 
 ## Análisis particular
 En este sección destacaremos los hallazgos de mayor relevancia para la empresa.
