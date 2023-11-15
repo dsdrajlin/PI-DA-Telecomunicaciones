@@ -7,13 +7,13 @@ Además de su expansión geográfica, Super ha diversificado su oferta, incorpor
 
 A partir de 2010, Super ha respondido a las nuevas tecnologías al introducir el servicio de Acceso a Internet a través de Fibra óptica. Esta tecnología, basada en cables de fibra óptica, proporciona ventajas como velocidades de transmisión más altas, mayor confiabilidad y seguridad en comparación con el cablemódem.
 
-En julio de 2018, Super anunció una inversión sustancial de aproximadamente 400 millones de dólares para expandir su red de fibra óptica ([Fuente](https://www.infobae.com/sociedad/2018/07/17/la-compania-de-television-por-cable-e-internet-supercanal-tiene-nuevos-duenos/)). Este movimiento estratégico ha llevado a la migración casi completa a la fibra óptica, marcando el abandono de la tecnología de Cablemódem en la mayoría de las ciudades.
+En julio de 2018, Super anunció una inversión sustancial de aproximadamente 400 millones de dólares para expandir su red de fibra óptica ([Fuente](https://www.infobae.com/sociedad/2018/07/17/la-compania-de-television-por-cable-e-internet-supercanal-tiene-nuevos-duenos/)). Este movimiento estratégico ha llevado a la migración casi completa a la fibra óptica, marcando el abandono de la tecnología de Cablemódem en la mayoría de las ciudades. Al día de hoy, su principal ingreso lo constituye la Fibra óptica, seguido de la TV por cable. Estos servicios se venden en forma conjunta o separada.
 
 Este proyecto tiene como objetivo principal analizar los datos actuales de Super, con foco en:
 * Evaluar la situación nacional y provincial de los servicios de TV por cable e Internet.
 * Reevaluar la ventaja de invertir en Fibra óptica frente a Cablemódem, respaldándose en datos concretos.
 * Identificar oportunidades para la mejora y el crecimiento continuo.
-* Desarrollar Key Performance Indicators (KPIs) para monitorear el cumplimiento de los objetivos de la empresa en este dinámico mercado de telecomunicaciones.
+* Desarrollar Key Performance Indicators (KPIs) para monitorear el cumplimiento de los objetivos de la empresa.
 
 
 ## Análisis general
@@ -31,7 +31,9 @@ Según ENACOM, la penetración de Internet ha crecido sostenidamente. Cuando se 
 
 ## Análisis particular
 En este sección destacaremos los hallazgos de mayor relevancia para la empresa.
-Exploración en particular y conclusiones
+Exploración en particular y conclusiones.
+
+Capital Federal tiene una de las penetraciones más altas de Internet, considerando todas las tecnologías, pero no es tan alta al considerar la penetración de Fibra óptica. Dado los requerimientos de Internet a alta velocidad, es un mercado en el que conviene orientar las inversiones. 
 
 ## KPIs
 Los __KPIs__ (Key Performance Indicator) son métricas específicas y cuantificables utilizadas para medir el rendimiento de una organización, un proceso o una actividad en relación con sus objetivos estratégicos. Estos indicadores son esenciales para evaluar el éxito o el progreso hacia metas establecidas y permiten a las empresas tomar decisiones informadas basadas en datos concretos.

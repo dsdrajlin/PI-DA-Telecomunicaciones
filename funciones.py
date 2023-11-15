@@ -3,19 +3,40 @@ import seaborn as sns
 import math
 
 def eda_inicial(df):
+    """
+    Realiza un Análisis Exploratorio de Datos (EDA) inicial en un DataFrame.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        El DataFrame que se analizará.
+
+    Returns
+    -------
+    None
+
+    Prints
+    ------
+    None
+        Imprime información sobre el DataFrame, incluyendo nombre y tipo de columnas,
+        número de filas y valores nulos.
+    None
+        Imprime el número de duplicados en el DataFrame.
+    None
+        Imprime estadísticas descriptivas de las columnas.
+    """
     # Obtener información del DataFrame, incluyendo nombre y tipo de columnas,
-    # número de filas y valores nulos
+    # número de filas y valores nulos.
     print(df.info(), "\n")
 
     # Obtener los duplicados considerando todas las columnas.
     print(f"El número de duplicados en el DataFrame es: {df.duplicated().sum()} \n")
 
-    # Describir las columnas
+    # Describir las columnas.
     print(df.describe(include="all"), "\n")
 
 
 def get_outliers_df(df, exclude = [], size = (16,8), ylim= None):
-
     # Configurar el tamaño de la figura
     plt.figure(figsize=size)
 
@@ -38,16 +59,16 @@ def get_outliers_df(df, exclude = [], size = (16,8), ylim= None):
 
     
 def get_outliers_df_provincia(df, exclude: list, size=(16, 8), cols_per_row=2, rotation=45):
-    # Obtener la lista única de provincias
+    # Obtener la lista única de provincias.
     provinces = df['Provincia'].unique()
 
-    # Calcular el número total de filas necesario para la grilla
+    # Calcular el número total de filas necesario para la grilla.
     total_rows = math.ceil(len(provinces) / cols_per_row)
 
     # Configurar el tamaño de la figura de la grilla
     fig, axes = plt.subplots(total_rows, cols_per_row, figsize=(size[0], size[1] * total_rows))
 
-    # Asegurarse de que 'axes' sea una matriz bidimensional
+    # Asegurarse de que 'axes' sea una matriz bidimensional.
     if total_rows == 1:
         axes = axes.reshape(1, -1)
     else:
