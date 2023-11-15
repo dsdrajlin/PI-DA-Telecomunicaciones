@@ -44,7 +44,12 @@ Según ENACOM, la penetración de Internet ha crecido sostenidamente. Cuando se 
 
 Del análisis de los rangos de velocidades de bajada, se observa que en 2014 la mayoría de los accesos eran inferiores a 10 Mbps, mientras que solo una minoría superaba los 30 Mbps. A finales de 2022, con la mayor disponibilidad de tecnologías más rápidas y asequibles, se ha observado una tendencia al aumento de las conexiones con velocidades más altas. Según el mencionado informe de Cabase, el 47.34% de los hogares tiene una velocidad de conexión superior a 50 Mbps. Considerando lo expuesto, resulta fundamental para aquellas empresas que quieran expandir su mercado ofrecer velocidades más altas.
 
-Según la última información disponibilzada por ENACOM, la velocidad media de bajada estaba en alrededor de 70 Mbps para el último trimestre de 2022. [Speedtest](https://www.speedtest.net/global-index/argentina?fixed#market-analysis) señala que el proveedor de Internet fijo con mayor velocidad en Argentina es "Movistar" con una mediana de velocidad de 92.83 Mbps para el Q4-2022 y una mediana de 102.55 Mbps para el Q3-2023. Surge del análisis y también de esta fuente, grandes diferencias entre distintas provincias. 
+Según la última información disponibilzada por ENACOM, la velocidad media de bajada estaba en alrededor de 70 Mbps para el último trimestre de 2022. [Speedtest](https://www.speedtest.net/global-index/argentina?fixed#market-analysis) señala que el proveedor de Internet fijo con mayor velocidad en Argentina es "Movistar" con una mediana de velocidad de 92.83 Mbps para el Q4-2022 y una mediana de 102.55 Mbps para el Q3-2023. Surge del análisis y también de esta fuente, grandes diferencias entre distintas provincias.
+
+En consonancia con lo anterior, la banda ancha se ha impuesto frente a la banda angosta por su alta velocidad, capacidad de transmitir múltiples flujos de datos simultaneamente y conectividad permanente.
+
+Dentro de las tecnologías de banda ancha, hay 2 que son las mas destacadas de los últimos tiempos: Cablemodem Y Fibra óptica. Cablemodem apareció antes, y es de fácil instalación y porque usaba la misma estructura que la que proveía la TV por Cable. Fibra óptica es más reciente, alcanza mayores velocidades de bajada y es la que ha ganado terreno más rápido. En estos puntos nos detendremos con más detalle al hacer el análisis particular para Super.
+
 
 
 ## Análisis particular
