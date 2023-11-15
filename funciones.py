@@ -37,24 +37,48 @@ def eda_inicial(df):
 
 
 def get_outliers_df(df, exclude = [], size = (16,8), ylim= None):
-    # Configurar el tamaño de la figura
+    """
+    Crea un boxplot para visualizar los valores atípicos en las columnas numéricas 
+    de un DataFrame.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        El DataFrame que se utilizará para crear el boxplot.
+    exclude : list, optional
+        Lista de columnas a excluir del boxplot. Por defecto, es una lista vacía.
+    size : tuple, optional
+        Tamaño de la figura. Por defecto, es (16, 8).
+    ylim : tuple, optional
+        Límites del eje y. Por defecto, se ajusta automáticamente.
+
+    Returns
+    -------
+    None
+
+    Prints
+    ------
+    None
+        Muestra un boxplot de todas las columnas numéricas del DataFrame excluyendo las especificadas en "exclude".
+    """
+    # Configurar el tamaño de la figura.
     plt.figure(figsize=size)
 
-    # Crear el boxplot con todas las columnas numéricas
+    # Crear el boxplot con todas las columnas numéricas no incluidas en "exclude".
     sns.boxplot(data=df.drop(exclude, axis=1))
 
-    # Personalizar el título y las etiquetas de los ejes
-    plt.title("Boxplot de Todas las Columnas Numéricas")
+    # Personalizar el título y las etiquetas de los ejes.
+    plt.title("Boxplot de las Columnas Numéricas")
     plt.xlabel("Columnas")
     plt.ylabel("Valores")
 
-    # Rotar las etiquetas del eje x para mejorar la legibilidad
+    # Rotar las etiquetas del eje x para mejorar la legibilidad.
     plt.xticks(rotation=45, ha="right")
 
-    # Ajusta los límites del eje y
+    # Ajustar los límites del eje y.
     plt.ylim(ylim)
 
-    # Mostrar el gráfico
+    # Mostrar el gráfico.
     plt.show()
 
     

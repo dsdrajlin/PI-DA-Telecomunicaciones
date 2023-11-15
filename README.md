@@ -28,6 +28,8 @@ Otras fuentes destacadas de información fueron:
 
 Según ENACOM, la penetración de Internet ha crecido sostenidamente. Cuando se mide el número de accesos cada 100 hogares, este era de 49,55 en el primer trimestre de 2014 y aumentó a 77,21 en el cuarto trimestre de 2022. Según el [Informe de Cabase](https://app.powerbi.com/view?r=eyJrIjoiYzNmNjIzZGYtMGFjZS00MzExLTk4YTgtZDJjZjg4MGFmNGJlIiwidCI6ImUxMzMxMmI2LTRkOTMtNDMyOC05NjkxLTA1ZTc3ODNiMGVhMSIsImMiOjR9) a Agosto de 2023, el 85,5% de los hogares cuentan con acceso a Internet fijo. Este fenómeno, aunque con velocidades distintas, se evidencia para todas las provincias. Según el mencionado informe, el 71% de los hogares con Internet fijo están concentrados en Buenos Aires, Capital Federal, Córdoba, Santa Fe y Mendoza, las 5 jurisdicciones más pobladas según el INDEC. 
 
+Del análisis de los rangos de velocidades de bajada, se observa que en 2014 la mayoría de los accesos eran inferiores a 10 Mbps, mientras que solo una minoría superaba los 30 Mbps. A finales de 2022, con la mayor disponibilidad de tecnologías más asequibles, se ha observado una tendencia al aumento de las conexiones con velocidades más altas.
+
 
 ## Análisis particular
 En este sección destacaremos los hallazgos de mayor relevancia para la empresa.
