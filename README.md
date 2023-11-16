@@ -15,7 +15,7 @@
 
 
 ## Introducción
-Como Analista de Datos, he sido contratado por Super (anteriormente conocida como [Supercanal](https://es.wikipedia.org/wiki/Super_(empresa))), una destacada empresa de telecomunicaciones en Argentina. La empresa fue fundada en 1985 en la provincia de Mendoza, con el objetivo de brindar acceso a TV por cable. Desde entonces, Super ha experimentado un crecimiento significativo, expandiéndose a más de 100 ciudades y 14 provincias del país.
+Como Analista de Datos, he sido contratado por [Super](https://es.wikipedia.org/wiki/Super_(empresa), una destacada empresa de telecomunicaciones en Argentina. La empresa fue fundada en 1985 en la provincia de Mendoza, con el objetivo de brindar acceso a TV por cable. Desde entonces, Super ha experimentado un crecimiento significativo, expandiéndose a más de 100 ciudades y 14 provincias del país.
 
 Además de su expansión geográfica, Super ha diversificado su oferta, incorporando el servicio de Acceso a Internet en 1999. Entre las pioneras en el ámbito, la empresa adoptó la tecnología de Cablemódem, aprovechando la infraestructura de televisión por cable para ofrecer servicios de internet de banda ancha.
 
@@ -62,7 +62,7 @@ Para identificar zonas con oportunidad de crecimiento se tomaron en cuenta 3 fac
 * __Penetración de la fibra óptica:__ en aquellas provincias donde la penetración aún es baja, hay mas potencial para expandirse.
 * __Geografía:__ dado que ofrecer servicios de fibra óptica requieren el desarrollo de una red física, el orientarse a provincias cercanas aminora en principio los costos de infraestructura.
 
-Para un análisis en mayor profundidad se sugiere consultar [EDA_Super.ipynb:](EDA_Super.ipynb), pero podemos afirmar, que con base a estos criterios, aquellas provincias que representan oportunidades de crecimiento en el más corto plazo son:
+Para un análisis en mayor profundidad se sugiere consultar [EDA_Super.ipynb](EDA_Super.ipynb), pero podemos afirmar, que con base a estos criterios, aquellas provincias que representan oportunidades de crecimiento en el más corto plazo son:
 * Capital Federal
 * Santiago Del Estero
 * Corrientes
