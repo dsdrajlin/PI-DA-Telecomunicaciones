@@ -15,7 +15,7 @@
 
 
 ## Introducción
-Como Analista de Datos, he sido contratado por [Super](https://es.wikipedia.org/wiki/Super_(empresa), una destacada empresa de telecomunicaciones en Argentina. La empresa fue fundada en 1985 en la provincia de Mendoza, con el objetivo de brindar acceso a TV por cable. Desde entonces, Super ha experimentado un crecimiento significativo, expandiéndose a más de 100 ciudades y 14 provincias del país.
+Como Analista de Datos, he sido contratado por [Super](https://es.wikipedia.org/wiki/Super_(empresa)), una destacada empresa de telecomunicaciones en Argentina. La empresa fue fundada en 1985 en la provincia de Mendoza, con el objetivo de brindar acceso a TV por cable. Desde entonces, Super ha experimentado un crecimiento significativo, expandiéndose a más de 100 ciudades y 14 provincias del país.
 
 Además de su expansión geográfica, Super ha diversificado su oferta, incorporando el servicio de Acceso a Internet en 1999. Entre las pioneras en el ámbito, la empresa adoptó la tecnología de Cablemódem, aprovechando la infraestructura de televisión por cable para ofrecer servicios de internet de banda ancha.
 
