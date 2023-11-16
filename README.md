@@ -50,13 +50,26 @@ En consonancia con lo anterior, la banda ancha se ha impuesto frente a la banda 
 
 Dentro de las tecnologías de banda ancha, hay 2 que son las mas destacadas de los últimos tiempos: Cablemodem Y Fibra óptica. Cablemodem apareció antes, y es de fácil instalación y porque usaba la misma estructura que la que proveía la TV por Cable. Fibra óptica es más reciente, alcanza mayores velocidades de bajada y es la que ha ganado terreno más rápido. En estos puntos nos detendremos con más detalle al hacer el análisis particular para Super.
 
-
-
 ## Análisis particular
-En este sección destacaremos los hallazgos de mayor relevancia para la empresa.
-Exploración en particular y conclusiones.
+Si bien Super nació como una empresa de TV por cable, las nuevas tecnologías y cambios en los patrones de consumo de sus clientes ([plataformas de streaming y gaming](https://www.forbesargentina.com/negocios/gaming-streaming-industrias-impulsan-uso-internet-exportaciones-argentina-n36828)), la llevaron a reorientarse al servicio de internet fijo. Hoy en día, solo cerca del 7% de sus ingresos provienen del servicio de TV por Cable, 80% del servicio de internet y 13% de cleintes con paquetes combinados.
 
-Capital Federal tiene una de las penetraciones más altas de Internet, considerando todas las tecnologías, pero no es tan alta al considerar la penetración de Fibra óptica. Dado los requerimientos de Internet a alta velocidad, es un mercado en el que conviene orientar las inversiones. 
+Los datos sostienen la decisión de la empresa: cuando se mide la penetracción del servicio como número de accesos cada 100 habitantes, se verifica que este creció menos del 4% en el periodo 2020-2022, con un máximo de 16.55 en el último trimestre de 2022. Al considerar la misma métrica para el acceso a Internet fijo, el aumento fue de 23.97% en el mismo periodo, con un máximo en el último trimestre de 2022 de 24.15 accesos cada 100 habitantes. Además, aunque con velocidades dispares, las mismas tendencias se observaron en las provincias: casi estancamiento del acceso a TV por Cable y crecimiento de Internet fijo.
+
+Respecto a las tecnologías de banda ancha, Cablemodem y Fibra óptica son las que más han crecido en los últimos años. Cablemodem apareció antes por lo que aún domina el mercado pero Fibra óptica es la que ha crecido a mayor velocidad, sobretodo desde 2018. Al último trimestre de 2022, del total de los accesos, 53.87% corresponden a Cablemodem, 27.31% a Fibra óptica y 18.82% a otras tecnologías. De sostenerse la tendencia actual, sería esperable que Fibra óptica tome la posición dominante en el mercado.
+
+Para identificar zonas con oportunidad de crecimiento se tomaron en cuenta 3 factores:
+* __Población:__ aquellas provincias más pobladas tienen un mercado más grande al cuál acceder.
+* __Penetración de la fibra óptica:__ en aquellas provincias donde la penetración aún es baja, hay mas potencial para expandirse.
+* __Geografía:__ dado que ofrecer servicios de fibra óptica requieren el desarrollo de una red física, el orientarse a provincias cercanas aminora en principio los costos de infraestructura.
+
+Para un análisis en mayor profundidad se sugiere consultar [EDA_Super.ipynb:](EDA_Super.ipynb), pero podemos afirmar, que con base a estos criterios, aquellas provincias que representan oportunidades de crecimiento en el más corto plazo son:
+* Capital Federal
+* Santiago Del Estero
+* Corrientes
+* Entre Rios
+* Misiones
+* Chaco
+* Formosa
 
 ## KPIs
 Los __KPIs__ (Key Performance Indicator) son métricas específicas y cuantificables utilizadas para medir el rendimiento de una organización, un proceso o una actividad en relación con sus objetivos estratégicos. Estos indicadores son esenciales para evaluar el éxito o el progreso hacia metas establecidas y permiten a las empresas tomar decisiones informadas basadas en datos concretos.
