@@ -72,7 +72,7 @@ def get_outliers_df(df, exclude = [], size = (16,8), ylim= None):
     plt.xlabel("Columnas")
     plt.ylabel("Valores")
 
-    # Rotar las etiquetas del eje x para mejorar la legibilidad.
+    # Ajustar las etiquetas del eje x para mejorar la legibilidad.
     plt.xticks(rotation=45, ha="right")
 
     # Ajustar los límites del eje y.
@@ -116,7 +116,7 @@ def get_outliers_df_provincia(df, exclude: list, size=(16, 8), cols_por_fila=2, 
     # Calcular el número total de filas necesario para la grilla.
     total_filas = math.ceil(len(provincias) / cols_por_fila)
 
-    # Configurar el tamaño de la figura de la grilla
+    # Configurar el tamaño de la figura de la grilla.
     fig, axes = plt.subplots(total_filas, cols_por_fila, 
                              figsize=(size[0], size[1] * total_filas))
 
@@ -128,22 +128,22 @@ def get_outliers_df_provincia(df, exclude: list, size=(16, 8), cols_por_fila=2, 
 
     # Iterar sobre las provincias y crear los boxplots.
     for i, provincia in enumerate(provincias):
-        # Obtener el subconjunto de datos para la provincia actual
+        # Obtener el subconjunto de datos para la provincia actual.
         subset_df = df[df['Provincia'] == provincia]
 
-        # Seleccionar el eje correcto en la grilla
+        # Seleccionar el eje correcto en la grilla.
         row = i // cols_por_fila
         col = i % cols_por_fila
 
-        # Llamar a la función sns.boxplot con el subconjunto de datos
+        # Llamar a la función sns.boxplot con el subconjunto de datos.
         sns.boxplot(data=subset_df.drop(exclude, axis=1), ax=axes[row, col])
 
-        # Establecer el título de la provincia
+        # Establecer el título de la provincia.
         axes[row, col].set_title(f"Provincia: {provincia}")
 
-        # Rotar las etiquetas del eje x para mejorar la legibilidad
+        # Rotar las etiquetas del eje x para mejorar la legibilidad.
         axes[row, col].tick_params(axis='x', rotation=rotacion)
 
-    # Ajustar el diseño de la grilla y mostrar la figura
+    # Ajustar el diseño de la grilla y mostrar la figura.
     plt.tight_layout()
     plt.show()
