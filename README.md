@@ -14,6 +14,7 @@
 - [Archivos](#archivos)
 - [Dashboard](#dashboard)
 - [Disclaimer](#disclaimer)
+- [Contacto](#contacto)
 
 
 ## Introducción
@@ -126,3 +127,8 @@ Los resultados fueron presentados a través de un dashboard interactivo que perm
 
 ## Disclaimer
 Este proyecto se realizó únicamente con fines educativos. El autor no guarda ninguna relación con la empresa Super y esta iniciativa no está respaldada ni afiliada de ninguna manera con dicha empresa.
+
+## Contacto
+Para más información o para contactarme, puedes encontrarme en LinkedIn:
+
+[LinkedIn](https://www.linkedin.com/in/sebastian-drajlin/)
