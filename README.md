@@ -120,10 +120,11 @@ Los resultados fueron presentados a través de un dashboard interactivo que perm
 
 | |
 |---|
-| <img src="./assets/db1.png" width="200"> |
-| <img src="./assets/db2.png" width="200"> |
-| <img src="./assets/db3.png" width="200"> |
-| <img src="./assets/db4.png" width="200"> |
+| <img src="./assets/db1.png" style="width: 100%;"> |
+| <img src="./assets/db2.png" style="width: 100%;"> |
+| <img src="./assets/db3.png" style="width: 100%;"> |
+| <img src="./assets/db4.png" style="width: 100%;"> |
+
 
 ## Disclaimer
 Este proyecto se realizó únicamente con fines educativos. El autor no guarda ninguna relación con la empresa Super y esta iniciativa no está respaldada ni afiliada de ninguna manera con dicha empresa.
