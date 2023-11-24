@@ -118,12 +118,10 @@ También se realizó un tablero interactivo con `Power BI`.
 ## Dashboard
 Los resultados fueron presentados a través de un dashboard interactivo que permitió visualizar los análisis realizados y las conclusiones obtenidas. Se presentan a continuación imágenes del mismo.
 
-| |
-|---|
-| <img src="./assets/db1.png" style="width: 100%;"> |
-| <img src="./assets/db2.png" style="width: 100%;"> |
-| <img src="./assets/db3.png" style="width: 100%;"> |
-| <img src="./assets/db4.png" style="width: 100%;"> |
+<img src="./assets/db1.png">
+<img src="./assets/db2.png">
+<img src="./assets/db3.png">
+<img src="./assets/db4.png">
 
 
 ## Disclaimer
