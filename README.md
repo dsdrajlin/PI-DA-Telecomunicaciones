@@ -12,6 +12,8 @@
   - [Tasa de Conversión](#tasa-de-conversión)
 - [Stack tecnológico](#stack-tecnológico)
 - [Archivos](#archivos)
+- [Dashboard](#dashboard)
+- [Disclaimer](#disclaimer)
 
 
 ## Introducción
@@ -105,8 +107,21 @@ El proyecto se desarrolló en Python, haciendo uso de las siguientes bibliotecas
 - **Operaciones en Archivos y Directorios:** `requests` | `shutil`
 - **Operaciones Científicas y Análisis de Datos:** `math` | `scipy` | `scikit-learn`
 
+También se realizó un tablero interactivo con `Power BI`.
+
 ## Archivos
 * __[EDA_preliminar.ipynb:](EDA_preliminar.ipynb)__ Análisis exploratorio inicial de la situación de acceso a Internet en Argentina.
 * __[EDA_Super.ipynb:](EDA_Super.ipynb)__ Análisis exploratorio con enfásis en las preguntas de negocio y objetivos especificos de Super.
 * __[funciones.py:](funciones.py)__ Funciones de uso común.
 * __[Datasets:](Datasets/)__ Carpeta con los archivos usados para el análisis.
+
+## Dashboard
+Los resultados fueron presentados a través de un dashboard interactivo que permitió visualizar los análisis realizados y las conclusiones obtenidas. Se presentan a continuación imágenes del mismo.
+
+<img src="./assets/db1.png">
+<img src="./assets/db2.png">
+<img src="./assets/db3.png">
+<img src="./assets/db4.png">
+
+## Disclaimer
+Este proyecto se realizó únicamente con fines educativos. El autor no guarda ninguna relación con la empresa Super y esta iniciativa no está respaldada ni afiliada de ninguna manera con dicha empresa.
